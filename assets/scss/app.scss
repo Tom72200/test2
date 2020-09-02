@@ -1,4 +1,11 @@
-@import '../../node_modules/bootstrap/scss/bootstrap.scss' 
+@import '_variables.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'; 
+@import 'helpers/_fonts.scss';
+@import 'helpers/_fontsizes.scss';
+@import 'helpers/_rounded.scss';
 
+body{
 
-  
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+
+ } 
