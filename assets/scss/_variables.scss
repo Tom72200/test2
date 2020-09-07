@@ -1,6 +1,9 @@
 $theme-colors: (
-  "danger": #F50C0D,
-  "purple": #760CF5
+  "danger": #AC1111,
+  "secondary": #F0EBF5,
+  "purple": #760CF5,
+  "pink": #F5DCDC,
+  
 );
 
 $container-max-widths: (
@@ -9,3 +12,17 @@ $container-max-widths: (
   lg: 960px,
   xl: 1640px
 );
+
+$spacers: (
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 6),
+  8: ($spacer * 7),
+
+)
+
+
