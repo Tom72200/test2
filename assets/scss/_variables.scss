@@ -1,11 +1,13 @@
 $theme-colors: (
   "danger": #AC1111,
   "secondary": #F0EBF5,
-  "purple": #760CF5,
+  "purple": #BF90F6,
   "pink": #F5DCDC,
   
   
 );
+
+$border-radius-lg: 10rem;
 
 $container-max-widths: (
   sm: 540px,
@@ -17,13 +19,10 @@ $container-max-widths: (
 $spacers: (
   1: ($spacer * .25),
   2: ($spacer * .5),
-  3: $spacer,
   4: ($spacer * 1.5),
   5: ($spacer * 3),
   6: ($spacer * 5),
   7: ($spacer * 6),
   8: ($spacer * 7),
-
 )
-
 

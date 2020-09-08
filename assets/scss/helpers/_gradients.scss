@@ -1,4 +1,5 @@
-$enable-gradients: (
-  value: 1
-  
-)
+$enable-gradients: true;
+
+.bg-gradient-purple{
+  background: linear-gradient(120deg, purple, #fff 100%) no-repeat; 
+}
