@@ -11,7 +11,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1640px
-);
+); 
 
 $spacer: 1rem !default;
 
@@ -24,6 +24,4 @@ $spacers: (
   6: ($spacer * 5),
   7: ($spacer * 6),
   8: ($spacer * 7),
-)
-
-
+);

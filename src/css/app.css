@@ -8110,11 +8110,17 @@ a.text-pink:hover, a.text-pink:focus {
 .rounded-medium {
   border-radius: 8px; }
 
+.btn-gradient-yellow {
+  background: linear-gradient(120deg, #555, #999 100%) no-repeat; }
+
 .bg-gradient-blue {
   background: linear-gradient(120deg, #fff, #000 100%) no-repeat; }
 
 .bg-gradient-purple {
-  background: linear-gradient(120deg, #555, #999 100%) no-repeat; }
+  background: linear-gradient(120deg, #555, #999 100%) no-repeat !important; }
+
+.btn-danger {
+  background: #000 !important; }
 
 body {
   font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
