@@ -1,7 +1,28 @@
-.bg-gradient-blue{
-  background: linear-gradient(120deg, #fff, #000 100%) no-repeat; 
+.bg-gradient-green{
+  background: linear-gradient(-180deg, rgb(175, 245, 175), rgb(133, 241, 133) 100%) no-repeat !important;
+}
+.bg-gradient-purple{
+  background: linear-gradient(-180deg, #d5bdf3, #8427f7 100%) no-repeat !important;
+}
+.bg-gradient-red{
+  background: linear-gradient(-180deg, rgb(241, 154, 154), rgb(241, 43, 43) 100%) no-repeat !important;
+}
+.bg-gradient-primary{
+  background: linear-gradient(-180deg, rgb(200, 200, 252), rgb(164, 164, 248))
+}
+.bg-gradient-yellow{
+  background: linear-gradient(-180deg, rgb(252, 252, 190),rgb(245, 245, 156))
+}
+.bg-gradient-bluealternative{
+  background: linear-gradient(-180deg, rgb(156, 206, 240),rgb(157, 157, 243))
+}
+.bg-gradient-redalternative{
+  background: linear-gradient(-180deg, rgb(250, 225, 225), rgb(247, 211, 211))
+}
+.bg-gradient-placeholder{
+  background: linear-gradient(-180deg, rgb(252, 238, 238),rgb(252, 238, 238))
+}
+.bg-gradient-success{
+  background: linear-gradient(-180deg  #57F500, #57F500 100%) no-repeat !important;
 }
 
-.bg-gradient-purple{
-  background: linear-gradient(120deg, #555, #999 100%) no-repeat !important;
-} 
