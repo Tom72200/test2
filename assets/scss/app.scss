@@ -39,4 +39,9 @@ h2 {
 .font-size-30{
     line-height: 70px;
 }
-
+input::placeholder{
+    padding: 3rem;
+}
+h6 {
+    font-family: 'Courier New', Courier, monospace
+}
