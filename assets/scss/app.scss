@@ -7,8 +7,8 @@
 @import 'helpers/_gradients.scss';
 @import '_overwrites.scss';
 @import 'helpers/_backgrounds.scss';
-
-
+@import 'helpers/_text-colors';
+@import 'helpers/_btns.scss';
 
 
 
@@ -18,5 +18,25 @@ body {
 
 ::placeholder {
     color: black;
+}
+
+p {
+    line-height: 35px;
+}
+
+h1 {
+    line-height: 55px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+.font-size-40 {
+    line-height: 70px;
+}
+
+.font-size-30{
+    line-height: 70px;
 }
 
