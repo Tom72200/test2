@@ -3,8 +3,9 @@ $theme-colors: (
   "secondary": #F0EBF5,
   "purple": #760CF5,
   "pink": #F5DCDC,  
-  
+  "light": rgb(209, 204, 204),
 );
+
 
 $border-radius-lg: 10rem;
 
@@ -12,7 +13,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1640px
+  xl: 1640px,
 ); 
 
 $spacer: 1rem !default;
