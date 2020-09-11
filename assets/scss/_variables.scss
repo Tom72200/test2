@@ -1,10 +1,16 @@
 $theme-colors: (
-  "danger": #ff0000,
-  "secondary": #F0EBF5,
+  "danger": red,
+  "secondary": #fcf9ff,
   "purple": #760CF5,
-  "pink": #F5DCDC,  
-  "light": rgb(209, 204, 204),
-  "muted": rgb(219, 219, 219),
+  "pink": #fcf3f3,
+  "light": rgb(212, 212, 212),
+  "muted": rgb(255, 241, 241),
+  "dark": black,
+  "grey": #f0dddd,
+  "success": rgb(249, 252, 249),
+  "green": green,
+  "info": rgb(250, 245, 245),
+  "primary": rgb(0, 255, 0),
 );
 
 
