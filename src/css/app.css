@@ -8549,13 +8549,13 @@ a.text-green:hover, a.text-green:focus {
   color: lime; }
 
 .btn-secondary {
-  color: #df2d2dad; }
+  color: #dad6d6ad; }
 
 .btn-buttons {
-  color: #dd1b1bad; }
+  color: #dad5d5ad; }
 
 .border-buttons {
-  color: #ff0000ad; }
+  color: #f0ececad; }
 
 .bg-gradient-green {
   background: linear-gradient(-180deg, #eff8ef, #f3faf3 100%) no-repeat !important; }
