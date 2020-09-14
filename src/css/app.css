@@ -8517,6 +8517,9 @@ a.text-green:hover, a.text-green:focus {
 .font-size-30 {
   font-size: 3rem; }
 
+.font-size-35 {
+  font-size: 3.8rem; }
+
 .rounded-large {
   border-radius: 10px; }
 
@@ -8532,8 +8535,8 @@ a.text-green:hover, a.text-green:focus {
 .rounded-xxl {
   border-radius: 25px; }
 
-.btn-gradient-yellow {
-  background: linear-gradient(120deg, #555, #999 100%) no-repeat; }
+.btn-gradient-red {
+  background: linear-gradient(to top, #B61010, #EC0C0D 100%) no-repeat; }
 
 .btn-light {
   color: #e6e0e0; }
@@ -8568,8 +8571,11 @@ a.text-green:hover, a.text-green:focus {
 .bg-gradient-success {
   background: linear-gradient(-180deg #57F500, #57F500 100%) no-repeat !important; }
 
-.bg-success {
-  color: #67a367; }
+.bg-gradient-redpack {
+  background: linear-gradient(-180deg #EA0C0D, #EA0C0D 100%); }
+
+.bg-gradient-greenpack {
+  background: linear-gradient(-180deg #328D00, #328D00 100%) no-repeat !important; }
 
 .bg-pink {
   color: #ffe8ec; }
@@ -8598,8 +8604,53 @@ a.text-green:hover, a.text-green:focus {
 .text-darkcard {
   color: #555555; }
 
+.text-darker {
+  color: #111111; }
+
 .btn-danger {
   color: #8b1818; }
+
+p.circleBlue {
+  width: 230px;
+  height: 230px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(#730CEE, #5810AD);
+  border: 4px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+p.circleRed {
+  width: 230px;
+  height: 230px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(#EE0C0D, #B91010);
+  border: 4px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+p.circleGreen {
+  width: 230px;
+  height: 230px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(#52E900, #338F00);
+  border: 4px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
 
 body {
   font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
@@ -8623,7 +8674,7 @@ h2 {
   line-height: 70px; }
 
 input::placeholder {
-  padding: 3rem; }
+  padding: 0.5rem; }
 
 h6 {
   font-family: 'Courier New', Courier, monospace; }

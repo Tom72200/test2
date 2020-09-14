@@ -9,7 +9,7 @@
 @import 'helpers/_backgrounds.scss';
 @import 'helpers/_text-colors';
 @import 'helpers/_btns.scss';
-
+@import 'helpers/paragraphs.scss';
 
 
 body {
@@ -40,8 +40,12 @@ h2 {
     line-height: 70px;
 }
 input::placeholder{
-    padding: 3rem;
+    padding: 0.5rem;
+    
+    
 }
 h6 {
     font-family: 'Courier New', Courier, monospace
 }
+
+
