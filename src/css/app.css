@@ -8713,9 +8713,6 @@ h2 {
 input::placeholder {
   padding: 0.5rem; }
 
-h6 {
-  font-family: 'Courier New', Courier, monospace; }
-
 div.gradientPurple {
   height: 600px;
   display: inline-flex;
