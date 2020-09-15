@@ -8558,22 +8558,22 @@ a.text-green:hover, a.text-green:focus {
   color: #f0ececad; }
 
 .bg-gradient-green {
-  background: linear-gradient(-180deg, #eff8ef, #f3faf3 100%) no-repeat !important; }
+  background: radial-gradient(white, #DAFDC8) !important; }
 
 .bg-gradient-purple {
   background: linear-gradient(-180deg, #d5bdf3, #8427f7 100%) no-repeat !important; }
 
 .bg-gradient-red {
-  background: linear-gradient(-180deg, #f19a9a, #f12b2b 100%) no-repeat !important; }
+  background: radial-gradient(white, #FDC9CA); }
 
 .bg-gradient-primary {
   background: linear-gradient(-180deg, #c8c8fc, #a4a4f8); }
 
 .bg-gradient-yellow {
-  background: linear-gradient(-180deg, #fcfcbe, #f5f59c); }
+  background: radial-gradient(white, #FDEFC9); }
 
 .bg-gradient-bluealternative {
-  background: linear-gradient(-180deg, #9ccef0, #9d9df3); }
+  background: radial-gradient(white, #C6D8FD); }
 
 .bg-gradient-redalternative {
   background: linear-gradient(-180deg, #faeded, #f7e6e6); }
@@ -8582,7 +8582,7 @@ a.text-green:hover, a.text-green:focus {
   background: linear-gradient(-180deg, #fceeee, #fceeee); }
 
 .bg-gradient-success {
-  background: linear-gradient(-180deg #57F500, #57F500 100%) no-repeat !important; }
+  background: linear-gradient(-180deg #DBFDC8, #DBFDC8 100%) no-repeat !important; }
 
 .bg-gradient-redpack {
   background: linear-gradient(-180deg #EA0C0D, #EA0C0D 100%); }
@@ -8595,6 +8595,12 @@ a.text-green:hover, a.text-green:focus {
 
 .bg-gradient-gray {
   background: rgba(236, 236, 236, 0.979); }
+
+.bg-gradient-cyan {
+  background: radial-gradient(white, #CAEEFB); }
+
+.bg-gradient-purplealternative {
+  background: radial-gradient(white, #A469F7); }
 
 .bg-pink {
   color: #ffe8ec; }
@@ -8619,6 +8625,9 @@ a.text-green:hover, a.text-green:focus {
 
 .bg-buttons {
   color: #F0EBF5; }
+
+.bg-primary {
+  color: #7ef140; }
 
 .text-danger {
   color: red; }
@@ -8706,3 +8715,39 @@ input::placeholder {
 
 h6 {
   font-family: 'Courier New', Courier, monospace; }
+
+div.gradientPurple {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+div.gradientRed {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+div.gradientGreen {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+div.gradientBlue {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+div.gradientYellow {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+div.gradientCyan {
+  height: 600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }

@@ -1,21 +1,21 @@
 .bg-gradient-green{
-  background: linear-gradient(-180deg, rgb(239, 248, 239), rgb(243, 250, 243) 100%) no-repeat !important;
+  background: radial-gradient(white, #DAFDC8) !important;
 }
 .bg-gradient-purple{
   background: linear-gradient(-180deg, #d5bdf3, #8427f7 100%) no-repeat !important;
 }
 .bg-gradient-red{
-  background: linear-gradient(-180deg, rgb(241, 154, 154), rgb(241, 43, 43) 100%) no-repeat !important;
+  background: radial-gradient(white, #FDC9CA)
   
 }
 .bg-gradient-primary{
   background: linear-gradient(-180deg, rgb(200, 200, 252), rgb(164, 164, 248))
 }
 .bg-gradient-yellow{
-  background: linear-gradient(-180deg, rgb(252, 252, 190),rgb(245, 245, 156))
+  background: radial-gradient(white, #FDEFC9)
 }
 .bg-gradient-bluealternative{
-  background: linear-gradient(-180deg, rgb(156, 206, 240),rgb(157, 157, 243))
+  background: radial-gradient(white, #C6D8FD)
 }
 .bg-gradient-redalternative{
   background: linear-gradient(-180deg, rgb(250, 237, 237), rgb(247, 230, 230))
@@ -24,7 +24,7 @@
   background: linear-gradient(-180deg, rgb(252, 238, 238),rgb(252, 238, 238))
 }
 .bg-gradient-success{
-  background: linear-gradient(-180deg  #57F500, #57F500 100%) no-repeat !important;
+  background: linear-gradient(-180deg  #DBFDC8, #DBFDC8 100%) no-repeat !important;
 }
 .bg-gradient-redpack{
   background: linear-gradient(-180deg #EA0C0D, #EA0C0D 100%)
@@ -37,5 +37,11 @@
 }
 .bg-gradient-gray{
  background: rgba(236, 236, 236, 0.979)
+}
+.bg-gradient-cyan{
+  background: radial-gradient(white, #CAEEFB)
+}
+.bg-gradient-purplealternative{
+  background: radial-gradient(white, #A469F7)
 }
 
