@@ -45,38 +45,41 @@ input::placeholder{
     
 }
 div.gradientPurple{
-    height: 600px;
+    height: 565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 div.gradientRed{
-    height:600px;
+    height:565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 div.gradientGreen{
-    height:600px;
+    height:565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 div.gradientBlue{
- height:600px;
+    height:565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 div.gradientYellow{
- height:600px;
+    height:565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 div.gradientCyan{
- height:600px;
+    height:565px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+.noHover{
+    pointer-events: none;
 }

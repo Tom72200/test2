@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8558,22 +8559,22 @@ a.text-green:hover, a.text-green:focus {
   color: #f0ececad; }
 
 .bg-gradient-green {
-  background: radial-gradient(white, #DAFDC8) !important; }
+  background: radial-gradient(#F2FEEA, #CAFCAF) !important; }
 
 .bg-gradient-purple {
   background: linear-gradient(-180deg, #d5bdf3, #8427f7 100%) no-repeat !important; }
 
 .bg-gradient-red {
-  background: radial-gradient(white, #FDC9CA); }
+  background: radial-gradient(#FFF6F6, #FCB4B5); }
 
 .bg-gradient-primary {
   background: linear-gradient(-180deg, #c8c8fc, #a4a4f8); }
 
 .bg-gradient-yellow {
-  background: radial-gradient(white, #FDEFC9); }
+  background: radial-gradient(#FFFCF5, #FCE8B3); }
 
 .bg-gradient-bluealternative {
-  background: radial-gradient(white, #C6D8FD); }
+  background: radial-gradient(#F8FBFF, #B2CBFC); }
 
 .bg-gradient-redalternative {
   background: linear-gradient(-180deg, #faeded, #f7e6e6); }
@@ -8594,13 +8595,13 @@ a.text-green:hover, a.text-green:focus {
   background: linear-gradient(180deg #c4c4c4, #c4c4c4); }
 
 .bg-gradient-gray {
-  background: rgba(236, 236, 236, 0.979); }
+  background: linear-gradient(#F0EBF5, #F0EBF5); }
 
 .bg-gradient-cyan {
-  background: radial-gradient(white, #CAEEFB); }
+  background: radial-gradient(#E8F8FE, #B0E6FA); }
 
 .bg-gradient-purplealternative {
-  background: radial-gradient(white, #A469F7); }
+  background: radial-gradient(#D2AFFC, #9c5ff7); }
 
 .bg-pink {
   color: #ffe8ec; }
@@ -8635,11 +8636,14 @@ a.text-green:hover, a.text-green:focus {
 .text-dark {
   color: black; }
 
-.text-darkcard {
-  color: #555555; }
-
 .text-darker {
-  color: #111111; }
+  color: #424242; }
+
+.text-purple {
+  color: #760CF5, !important; }
+
+.text-grey {
+  color: #414141; }
 
 .btn-danger {
   color: #8b1818; }
@@ -8714,37 +8718,40 @@ input::placeholder {
   padding: 0.5rem; }
 
 div.gradientPurple {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 div.gradientRed {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 div.gradientGreen {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 div.gradientBlue {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 div.gradientYellow {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 div.gradientCyan {
-  height: 600px;
+  height: 565px;
   display: inline-flex;
   align-items: center;
   justify-content: center; }
+
+.noHover {
+  pointer-events: none; }
