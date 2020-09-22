@@ -1,7 +1,47 @@
-.bg-gradient-blue{
-  background: linear-gradient(120deg, #fff, #000 100%) no-repeat; 
+.bg-gradient-green{
+  background: radial-gradient(#F2FEEA, #CAFCAF) !important;
+}
+.bg-gradient-purple{
+  background: linear-gradient(-180deg, #d5bdf3, #8427f7 100%) no-repeat !important;
+}
+.bg-gradient-red{
+  background: radial-gradient(#FFF6F6, #FCB4B5)
+  
+}
+.bg-gradient-primary{
+  background: linear-gradient(-180deg, rgb(200, 200, 252), rgb(164, 164, 248))
+}
+.bg-gradient-yellow{
+  background: radial-gradient(#FFFCF5, #FCE8B3)
+}
+.bg-gradient-bluealternative{
+  background: radial-gradient(#F8FBFF, #B2CBFC)
+}
+.bg-gradient-redalternative{
+  background: linear-gradient(-180deg, rgb(250, 237, 237), rgb(247, 230, 230))
+}
+.bg-gradient-placeholder{
+  background: linear-gradient(-180deg, rgb(252, 238, 238),rgb(252, 238, 238))
+}
+.bg-gradient-success{
+  background: linear-gradient(-180deg  #DBFDC8, #DBFDC8 100%) no-repeat !important;
+}
+.bg-gradient-redpack{
+  background: linear-gradient(-180deg #EA0C0D, #EA0C0D 100%)
+}
+.bg-gradient-greenpack{
+  background: linear-gradient(-180deg  #328D00, #328D00 100%) no-repeat !important;
+}
+.bg-gradient-buttons{
+  background: linear-gradient(180deg #c4c4c4, #c4c4c4)
+}
+.bg-gradient-grey{
+ background: linear-gradient(#e5d8f3,#e5d8f3) no-repeat !important;
+}
+.bg-gradient-cyan{
+  background: radial-gradient(#E8F8FE, #B0E6FA)
+}
+.bg-gradient-purplealternative{
+  background: radial-gradient(#D2AFFC, #9c5ff7)
 }
 
-.bg-gradient-purple{
-  background: linear-gradient(120deg, #555, #999 100%) no-repeat !important;
-}

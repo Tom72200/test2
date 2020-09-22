@@ -1,0 +1,43 @@
+p.circleBlue{
+  width: 230px;
+  height: 230px;
+  padding:5px;
+  border-radius: 70%;
+  background: linear-gradient(#730CEE, #5810AD);
+  border: 6px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin:0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+p.circleRed{
+  width: 230px;
+  height: 230px;
+  padding:5px;
+  border-radius: 70%;
+  background: linear-gradient(#EE0C0D, #B91010);
+  border: 6px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin:0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+p.circleGreen{
+  width: 230px;
+  height: 230px;
+  padding:6px;
+  border-radius: 70%;
+  background: linear-gradient(#52E900, #338F00);
+  border: 5px solid #E6E6E6;
+  padding: 12px;
+  background-clip: content-box;
+  margin:0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+

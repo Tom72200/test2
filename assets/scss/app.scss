@@ -5,11 +5,91 @@
 @import 'helpers/_rounded.scss';
 @import 'helpers/_buttons.scss';
 @import 'helpers/_gradients.scss';
-@import '_overwrites.scss'; 
+@import '_overwrites.scss';
+@import 'helpers/_backgrounds.scss';
+@import 'helpers/_text-colors';
+@import 'helpers/_btns.scss';
+@import 'helpers/paragraphs.scss';
 
-body{
-    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+body {
+      font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      position: relative;
+      overflow-x: hidden;
+      width: 100%;
+      
 }
 
+::placeholder {
+    color: black;
+}
 
+p {
+    line-height: 35px;
+}
+
+h1 {
+    line-height: 55px;
+}
+
+h2 {
+    line-height: 50px;
+}
+h5 {
+    font-family: 'roboto';
+    font-weight: 800;
+}
+
+.font-size-40 {
+    line-height: 70px;
+}
+
+.font-size-30{
+    line-height: 70px;
+}
+input::placeholder{
+    padding: 0.5rem;
+    
+    
+}
+div.gradientPurple{
+    height: 565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gradientRed{
+    height:565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gradientGreen{
+    height:565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gradientBlue{
+    height:565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gradientYellow{
+    height:565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gradientCyan{
+    height:565px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.noHover{
+    pointer-events: none;
+}
 
